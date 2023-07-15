@@ -1,0 +1,146 @@
+#PYTHON INTRO:
+#1-POPULAR PROGRAMMING LANGUAGE.
+#2-CREATED BY GUIDO VAN ROSSUM IN 1991.
+#Uses:
+#1-web development 
+#2-software development
+#3-mathematics 
+#4-system scripting 
+#syntax of PYTHON:
+print(9)
+print("amna")
+print('amna')
+print(56.78)
+print("hello,world!")
+#multi line comments:
+"""
+these are all the comments
+that i am typing
+on this compiler
+"""
+#PYTHON VARIABLES:empty containers in which you store your values:
+a=7 
+b="Amna"
+print(a)
+print(b)
+print(a,b)
+x=9 
+X=76
+print(x)
+print(X)
+#Variable names:
+#car_name,car_1,car1,Car_Name,CAR_NAME
+#Inapropriate names:
+#2name,car name, car-name
+#camel case:each word, except the first starts with a capital letter
+myCarName="honda"
+print(myCarName)
+#Pascal case:each word starts with a capital letter
+MyCarName="honda"
+print(MyCarName)
+#snake case:each word is seperated with an underscore
+My_Car_Name="honda"
+print(My_Car_Name)
+#Assign multiple values:
+a,b,c=1,2,3
+print(a)
+print(b)
+print(c)
+print(a,b,c)
+x,y,z="apple","pear","cherry"
+print(x)
+print(y)
+print(z)
+print(x,y,z)
+x=y=z=8 
+print(x)
+print(y)
+print(z)
+#unpack a collection:
+fruits=["apple","pear","cherry"]
+x,y,z=fruits
+print(x)
+print(y)
+print(z)
+#Output variables:
+h="python"
+i="is"
+j="awesome."
+print(h,i,j)
+h="python"
+i=" is"
+j=" awesome."
+print(h+i+j)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
