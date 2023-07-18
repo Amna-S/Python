@@ -1,0 +1,92 @@
+#Python strings:
+#they are text and is surrounded by double/single quotes.
+x="hello, how are you? What are your plans for today?"
+print(x)
+#get the type:
+print(type(x))
+#length of a string:
+print(len(x))
+#Access the string:
+y="hello"
+print(y[4])
+#Looping through a string:
+for x in "pineapple":
+    print(x)
+#Checking a string:
+text="Goodbyes are very hard to say!"
+print("morning" in text)
+#Slicing strings:
+#positive indexing
+b="watermelon"
+print(b[5:10])
+c="programming"
+print(c[3:7])
+print(c[3:])
+#negative indexing:
+x="amna"
+-4 -3 -2 -1
+print(x[-2:])
+#Modify strings:
+#upper()method:
+a="hello"
+print(a.upper())
+#lower()method:
+b="HELLO"
+print(b.lower())
+#capitalize()method:
+c="hello"
+print(c.capitalize())
+#strip()method:removes whitespaces from beginning and at the end 
+text="    today is tuesday.   "
+print(text.strip())
+#replace()method:
+x="Hello"
+print(x.replace("Hello","Hi"))
+#split()method:
+y="Hello today is tuesday."
+z=y.split(",")
+print(z)
+#String concatenation:
+a="hello"
+b="amna"
+print(a,b)
+print(a +" "+ b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
