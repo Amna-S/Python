@@ -1,0 +1,146 @@
+#format strings:
+age=13 
+height=5.6
+text="Ethan is {} years old.His height is {} tall."
+print(text.format(age,height))
+#Escape characters:
+#single quote(\'):
+text="It\'s raining heavily."
+print(text)
+#new line(\n):
+text="Hello,\nI am a girl.\nMy name is Amna."
+print(text)
+#tab(\t):
+text="Hello,\tI am a girl.\tMy name is Amna."
+print(text)
+text="Hello, \b\bI am a girl. \b\bMy name is Amna."
+print(text)
+#Booleans:
+print(12==12)
+print(12 > 4)
+print(12 < 4)
+print(34 >=34)
+print(99<=65)
+x=98 
+y=78 
+print(x > y)
+print(x==y)
+print(x < y)
+print(x >=y)
+print(x<=y)
+a=200 
+b=44 
+if b > a:
+    print("b is greater")
+else:
+    print("a is greater")
+print(bool(False))
+print(bool())
+print(bool(0))
+print(bool(None))
+print(bool(""))
+
+print(bool("hello"))
+print(bool(234))
+x="hello"
+y=5678
+print(bool(x))
+print(bool(y))
+#Operators:
+#Arithmetic:(+,-,*,/,%,** exponentiation,// floor division)
+x=44 
+y=88 
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x**y)
+print(x//y)
+#Assignment:(+=,-=,*=,/=,**=,//=,&=,>>=,<<=,|=)
+a=5 
+a+=3
+print(a)
+a=5 
+a-=3
+print(a)
+a=5 
+a*=3
+print(a)
+a=15 
+a/=3
+print(a)
+a=5 
+a**=3
+print(a)
+a=25 
+a//=3
+print(a)
+a=5 
+a&=3
+print(a)
+a=5 
+a|=3
+print(a)
+a=5 
+a>>=3
+print(a)
+a=5 
+a<<=3
+print(a)
+#Comparison:(==,>,<,>=,<=,!=)
+x=4 
+y= 7 
+print(x==y)
+print(x!=y)
+print(x>=y)
+print(x<=y)
+print(x<y)
+print(x>y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
