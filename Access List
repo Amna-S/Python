@@ -1,0 +1,41 @@
+#List: 
+#built-in datatype.
+#we use to store multiple items in a single variable
+#use square brackets
+#allows duplicate values
+#create a list:
+fruits=["kiwi","orange","pear","kiwi"]
+print(fruits)
+print(type(fruits))
+print(len(fruits))
+numbers=[1,2,3,4,5,6,7,8,9]
+print(numbers)
+print(type(numbers))
+print(len(numbers))
+#list()constructor:
+mylist=list(("pear","kiwi"))
+print(mylist)
+#Access items:
+x=["apple","kiwi","pear"]
+print(x[1])
+print(x[0])
+#negative indexing:
+x=["apple","kiwi","pear"]
+print(x[-1])
+print(x[-3])
+x=["apple","kiwi","pear","peach","orange","berry","cherry"]
+print(x[2:6])
+print(x[-5:-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
