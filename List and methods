@@ -1,0 +1,113 @@
+#update list items:
+mylist=["apple","kiwi","pear"]
+mylist[1]="watermelon"
+print(mylist)
+mylist=["apple","kiwi","pear","cherry","orange"]
+mylist[1:4]=["watermelon","peach"]
+print(mylist)
+mylist=["apple","kiwi","pear","cherry","orange"]
+mylist[1:5]=["watermelon"]
+print(mylist)
+#add items:
+#append method:
+mylist=["apple","kiwi","pear"]
+mylist.append("orange")
+print(mylist)
+#extend method:
+mylist=["apple","kiwi","pear"]
+colors=["red","green","yellow"]
+mylist.extend(colors)
+print(mylist)
+#insert method:
+mylist=["apple","kiwi","pear"]
+mylist.insert(2,"cherry")
+print(mylist)
+#remove items:
+#remove():
+mylist=["apple","kiwi","pear"]
+mylist.remove("kiwi")
+print(mylist)
+#pop():
+mylist=["apple","kiwi","pear"]
+mylist.pop(1)
+print(mylist)
+mylist=["apple","kiwi","pear"]
+mylist.pop()
+print(mylist)
+#clear():
+mylist=["apple","kiwi","pear"]
+mylist.clear()
+print(mylist)
+#delete():
+mylist=["apple","kiwi","pear"]
+#del mylist
+print(mylist)
+#Loop list:
+mylist=["apple","kiwi","pear"]
+for x in mylist:
+    print(x)
+mylist=["apple","kiwi","pear"]
+for i in range(len(mylist)):
+    print(mylist[i])
+#while loop:
+mylist=["apple","kiwi","pear"]
+i=0
+while i < len(mylist):
+    print(mylist[i])
+    i=i+1
+#short hand for loop:
+mylist=["apple","kiwi","pear"]
+[print(x)for x in mylist]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
