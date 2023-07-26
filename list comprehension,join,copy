@@ -1,0 +1,83 @@
+#List Comprehension:
+fruits=["apple","kiwi","pear"]
+newlist=[]
+for x in fruits:
+    if "a" in x:
+        newlist.append(x)
+print(newlist)
+#short hand list comprehension:
+fruits=["apple","kiwi","pear"]
+newlist=[x for x in fruits if "a" in x]
+print(newlist)
+#Sorting:
+#Ascending:
+mylist=["banana","kiwi","pear","apricot","cherry"]
+mylist.sort()
+print(mylist)
+#Descending:
+mylist=["banana","kiwi","pear","apricot","cherry"]
+mylist.sort(reverse=True)
+print(mylist)
+numbers=[34,87,45,1,3,9,87,99,56,876]
+numbers.sort()
+print(numbers)
+numbers=[34,87,45,1,3,9,87,99,56,876]
+numbers.sort(reverse=True)
+print(numbers)
+#Reverse order:
+numbers=[34,87,45,1,3,9,87,99,56,876]
+numbers.reverse()
+print(numbers)
+#copy():
+mylist=["banana","kiwi","pear","apricot","cherry"]
+newlist=mylist.copy()
+print(newlist)
+#list():
+mylist=["banana","kiwi","pear","apricot","cherry"]
+newlist=list(mylist)
+print(newlist)
+#Join list:
+list1=[1,2,3,3,4]
+list2=["a","b","c"]
+list3=list1+list2
+print(list3)
+print(list1+list2)
+#append():
+list1=[1,2,3,3,4]
+list2=["a","b","c"]
+for x in list2:
+    list1.append(x)
+print(list1)
+list1=[1,2,3,3,4]
+list2=["a","b","c"]
+list2.extend(list1)
+print(list2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
