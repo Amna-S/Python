@@ -1,0 +1,69 @@
+#Change tuples:
+x=("apple","kiwi","pear")
+y=list(x)
+y[1]="cherry"
+x=tuple(y)
+print(x)
+#add items:
+x=("apple","kiwi","pear")
+y=list(x)
+y.append("orange")
+x=tuple(y)
+print(x)
+#remove items:
+x=("apple","kiwi","pear")
+y=list(x)
+y.remove("apple")
+x=tuple(y)
+print(x)
+#del x 
+print(x)
+#unpack a collection:
+fruits=("apple","kiwi","pear")
+(item1,item2,item3)=fruits
+print(item1)
+print(item2)
+print(item3)
+#loop tuples:
+fruits=("apple","kiwi","pear")
+for x in fruits:
+    print(x)
+for i in range(len(fruits)):
+    print(fruits[i])
+fruits=("apple","kiwi","pear","cherry")
+i=0
+while i < len(fruits):
+    print(fruits[i])
+    i=i+1
+#Join Tuples:
+tuple1=(1,2,3,4,5)
+tuple2=("a","b","c")
+tuple3=tuple1+tuple2
+print(tuple3)   
+print(tuple1+tuple2)
+#Multiply tuples:
+fruits=("apple","kiwi","pear","cherry")
+mytuple=fruits*10000
+print(mytuple)
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
